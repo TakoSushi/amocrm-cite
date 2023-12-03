@@ -1,0 +1,10 @@
+.footer {
+  box-sizing: border-box;
+  padding-top: 55px;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding-top: 42px;
+  }
+}

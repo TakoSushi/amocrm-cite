@@ -5,3 +5,19 @@
   justify-content: space-between;
   margin: 15px 0 0 0;
 }
+
+@media (max-width: 1100px) {
+  .header__nav-list {
+    gap: 17px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__nav-list {
+    justify-content: center;
+    margin-top: 17px;
+  }
+  .header__nav-list > li:last-child {
+    display: none;
+  }
+}

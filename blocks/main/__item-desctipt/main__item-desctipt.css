@@ -1,0 +1,15 @@
+.main__item-desctipt {
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+}
+
+@media (max-width: 640px) {
+  .main__item-desctipt {
+    display: none;
+  }
+}

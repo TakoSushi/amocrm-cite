@@ -1,0 +1,9 @@
+.main__title {
+  max-width: 362px;
+}
+
+@media (max-width: 640px) {
+  .main__title {
+    max-width: 290px;
+  }
+}

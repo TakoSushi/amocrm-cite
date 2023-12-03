@@ -1,0 +1,19 @@
+.main__presents-list {
+  display: grid;
+  grid-template-columns: 136px 136px;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .main__presents-list {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .main__presents-list {
+    margin-top: 20px;
+  }
+}

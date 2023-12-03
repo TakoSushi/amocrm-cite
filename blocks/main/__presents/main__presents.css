@@ -1,0 +1,11 @@
+.main__presents {
+  max-width: 300px;
+  margin-top: 15px;
+}
+
+@media (max-width: 640px) {
+  .main__presents {
+    margin-top: 45px;
+    max-width: 290px;
+  }
+}

@@ -1,0 +1,14 @@
+.footer__contacts-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 21px;
+}
+
+@media (max-width: 640px) {
+  .footer__contacts-list {
+    margin-top: 8px;
+    justify-content: start;
+  }
+}

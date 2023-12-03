@@ -1,0 +1,11 @@
+.footer__contacts {
+  margin-left: auto;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .footer__contacts {
+    margin-left: 0;
+    text-align: left;
+  }
+}

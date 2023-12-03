@@ -1,0 +1,15 @@
+.main__title-descript {
+  max-width: 275px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+  .main__title-descript {
+    margin-top: 17px;
+  }
+}

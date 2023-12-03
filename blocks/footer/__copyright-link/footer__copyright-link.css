@@ -1,0 +1,17 @@
+.footer__copyright-link {
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  display: block;
+  margin: 5px 0 0 auto;
+}
+
+@media (max-width: 640px) {
+  .footer__copyright-link {
+    text-align: left;
+  }
+}

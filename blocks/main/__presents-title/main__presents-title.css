@@ -1,0 +1,13 @@
+.main__presents-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  .main__presents-title {
+    text-align: left;
+  }
+}

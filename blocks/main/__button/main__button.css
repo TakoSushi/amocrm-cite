@@ -1,0 +1,27 @@
+.main__button {
+  max-width: 262px;
+  width: 100%;
+  height: 61px;
+  color: #e4e5ea;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #4077f3;
+  border: none;
+  display: block;
+  margin: 61px 0 0 auto;
+  cursor: pointer;
+  transition: opacity 0.6s ease;
+}
+
+.main__button:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 640px) {
+  .main__button {
+    display: none;
+  }
+}

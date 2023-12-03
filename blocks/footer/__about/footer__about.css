@@ -1,0 +1,9 @@
+.footer__about {
+  margin-right: 92px;
+}
+
+@media (max-width: 1100px) {
+  .footer__about {
+    margin-right: 0;
+  }
+}

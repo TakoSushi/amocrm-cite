@@ -28,7 +28,33 @@
 @import url(../blocks/contacts/__list/contacts__list.css);
 @import url(../blocks/contacts/__link/contacts__link.css);
 @import url(../blocks/contacts/__img/contacts__img.css);
+@import url(../blocks/contacts/__adress/contacts__adress.css);
 
 /* Main */
 @import url(../blocks/main/main.css);
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__title-h1/main__title-h1.css);
+@import url(../blocks/main/__title-h1/_colorize/main__title-h1_colorize.css);
+@import url(../blocks/main/__title-descript/main__title-descript.css);
+@import url(../blocks/main/__item-title/main__item-title.css);
+@import url(../blocks/main/__item-desctipt/main__item-desctipt.css);
+@import url(../blocks/main/__presents/main__presents.css);
+@import url(../blocks/main/__presents-title/main__presents-title.css);
+@import url(../blocks/main/__presents-title/_colorize/main__presents-title_colorize.css);
+@import url(../blocks/main/__presents-list/main__presents-list.css);
+@import url(../blocks/main/__presents-item/main__presents-item.css);
+@import url(../blocks/main/__button/main__button.css);
 
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu-wrapper/footer__menu-wrapper.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contacts-list/footer__contacts-list.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__copyright-link/footer__copyright-link.css);
+@import url(../blocks/footer/__menu-list/footer__menu-list.css);
+@import url(../blocks/footer/__about-list/footer__about-list.css);
+@import url(../blocks/footer/__nav-menu/footer__nav-menu.css);

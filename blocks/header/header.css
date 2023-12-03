@@ -1,5 +1,18 @@
 .header {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 900px) {
+  .header {
+    height: 55px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    justify-content: center;
+  }
 }

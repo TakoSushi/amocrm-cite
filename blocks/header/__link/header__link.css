@@ -1,8 +1,15 @@
 .header__link {
-  color: #E4E5EA;
+  color: #e4e5ea;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+@media (max-width: 1100px) {
+  .header__link {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 }

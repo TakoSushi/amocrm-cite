@@ -1,0 +1,12 @@
+.main__title-h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 900px) {
+  .main__title-h1 {
+    font-size: 36px;
+  }
+}

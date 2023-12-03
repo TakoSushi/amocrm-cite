@@ -1,0 +1,7 @@
+.main__title-h1_colorize {
+  font-weight: 900;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
