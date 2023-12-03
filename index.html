@@ -11,77 +11,152 @@
   <header class="header">
     <div class="logo">
       <div class="logo__img-wrapper">
-        <img src="./images/welbexLogoImg.svg" alt="Логотип компании" class="logo__icon-img">
-        <img src="./images/welbexLogoText.svg" alt="WELBEX" class="logo__text-img">
+        <img src="./images/welbexLogoImg.svg" alt="Логотип компании" class="logo__icon-img_part1">
+        <img src="./images/welbexLogoText.svg" alt="WELBEX" class="logo__icon-img_part2">
       </div>
       <p class="logo__text">крупный интегратор CRM в Росcии и ещё 8 странах</p>
     </div>
     <nav class="header__nav-menu">
       <ul class="header__nav-list">
-        <li class="list__item list__item_header">Услуги</li>
-        <li class="list__item list__item_header">Виджеты</li>
-        <li class="list__item list__item_header">Интеграция</li>
-        <li class="list__item list__item_header">Кейсы</li>
-        <li class="list__item list__item_header">Сертификаты</li>
+        <li>
+          <a class="link header__link" href="#">Услуги</a>
+        </li>
+        <li>
+          <a class="link header__link" href="#">Виджеты</a>
+        </li>
+        <li>
+          <a class="link header__link" href="#">Интеграция</a>
+        </li>
+        <li>
+          <a class="link header__link" href="#">Кейсы</a>
+        </li>
+        <li>
+          <a class="link header__link" href="#">Сертификаты</a>
+        </li>
       </ul>
     </nav>
-    <div class="contacts">
-      <a href="tel:+75555555">+7&nbsp;555&nbsp;555-55-55</a>
-      <ul>
+    <div class="contacts contacts_header">
+      <a class="link contacts__link" href="tel:+75555555">+7&nbsp;555&nbsp;555-55-55</a>
+      <ul class="contacts__list">
         <li>
-          <a href="https://web.telegram.org" target="_blank" class="contacts__telegram" rel="noopener">
+          <a class="link contacts__link" href="https://web.telegram.org" target="_blank" rel="noopener">
+            <img src="./images/telegramIcon.svg" alt="telegram" class="contacts__img">
+          </a>
         </li>
         <li>
-          <a href="https://www.viber.com" target="_blank" class="contacts__viber" rel="noopener">
+          <a class="link contacts__link" href="https://www.viber.com" target="_blank" rel="noopener">
+            <img src="./images/viberIcon.svg" alt="viber" class="contacts__img">
+          </a>
         </li>
         <li>
-          <a href="https://web.whatsapp.com/" target="_blank" class="contacts__whatsapp" rel="noopener">
+          <a class="link contacts__link" href="https://web.whatsapp.com/" target="_blank" rel="noopener">
+            <img src="./images/whatsappIcon.svg" alt="whatsapp" class="contacts__img">
+          </a>
         </li>
       </ul>
     </div>
   </header>
-  <main>
-    
+  <main class="main">
+    <div class="main__title">
+      <h1 class="main__title-h1">Зарабатывайте больше с WELBEX</h1>
+      <p class="main__title-descript">Развиваем и контролируем продажи за вас</p>
+    </div>
+    <div>
+      <p class="presents__title">Вместе с бесплатной консультацией мы дарим:</p>
+      <ul class="presents__list">
+        <li class="presents__item">
+          <p class="item__title">ВИДЖЕТЫ</p>
+          <p class="item__desctipt">30 готовых решений</p>
+        </li>
+        <li class="presents__item">
+          <p class="item__title">DASHBOARD</p>
+          <p class="item__desctipt">с показателями вашего бизнеса</p>
+        </li>
+        <li class="presents__item">
+          <p class="item__title">SKYPE АУДИТ</p>
+          <p class="item__desctipt">с показателями вашего бизнеса</p>
+           отдела продаж и CRM системы</p>
+        </li>
+        <li class="presents__item">
+          <p class="item__title">35 ДНЕЙ</p>
+          <p class="item__desctipt">использования CRM</p>
+        </li>
+      </ul>
+      <button type="button">Получить консультацию</button>
+    </div>
   </main>
   <footer class="footer">
-    <div class="footer__about">
-      <p class="footer__title">О КОМПАНИИ</p>
+    <nav class="footer__about">
+      <h3 class="footer__title">О КОМПАНИИ</h3>
       <ul>
-        <li>Партнёрская программа</li>
-        <li>Вакансии</li>
+        <li>
+          <a class="link" href="#">Партнёрская программа</a>
+        </li>
+        <li>
+          <a class="link" href="#">Вакансии</a>
+        </li>
       </ul>
-    </div>
-    <div class="footer__menu">
-      <p class="footer__title">О КОМПАНИИ</p>
-      <nav class="footer_nav_menu">
-        <ul class="list">
-          <li class="list__item">Расчёт стоимости программа</li>
-          <li class="list__item">Услуги</li>
-          <li class="list__item">Виджеты</li>
-          <li class="list__item">Интеграции</li>
-          <li class="list__item">Наши клиенты</li>
-          <li class="list__item">Кейсы</li>
-          <li class="list__item">Благодарственные письма</li>
-          <li class="list__item">Сертификаты</li>
-          <li class="list__item">Блог на Youtube</li>
-          <li class="list__item">Вопрос / Ответ</li>
-        </ul>
-      </nav>
-    </div>
+    </nav>
+    <nav class="footer_nav_menu"">
+      <h3 class="footer__title">МЕНЮ</p>
+      <ul class="list">
+        <li class="list__item">
+          <a class="link" href="#">Расчёт стоимости программа</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Услуги</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Виджеты</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Интеграции</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Наши клиенты</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Кейсы</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Благодарственные письма</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Сертификаты</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Блог на Youtube</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#">Вопрос / Ответ</a>
+        </li>
+      </ul>
+    </nav>
     <div class="footer__contacts">
-      <a href="tel:+75555555555">+7&nbsp;555&nbsp;555-55-55</a>
+      <h3 class="footer__title">КОНТАКТЫ</p>
+      <a class="link" href="tel:+75555555555">+7&nbsp;555&nbsp;555-55-55</a>
       <ul>
         <li>
-          <a href="https://web.telegram.org" target="_blank" class="contacts__telegram" rel="noopener">
+          <a class="link" href="https://web.telegram.org" target="_blank" class="contacts__telegram" rel="noopener">
+            <img src="./images/telegramIcon.svg" alt="telegram" class="contacts__img">
+          </a>
         </li>
         <li>
-          <a href="https://www.viber.com" target="_blank" class="contacts__viber" rel="noopener">
+          <a class="link" href="https://www.viber.com" target="_blank" class="contacts__viber" rel="noopener">
+            <img src="./images/viberIcon.svg" alt="viber" class="contacts__img">
+          </a>
         </li>
         <li>
-          <aweb.whatsapp.com/" target="_blank" class="contacts__whatsapp" rel="noopener">
+          <a class="link" href="https://www.viber.com" target="_blank" class="contacts__viber" rel="noopener">
+            <img src="./images/viberIcon.svg" alt="viber" class="contacts__img">
+          </a>
         </li>
       </ul>
       <p class="contacts__adress">Москва, Путевой проезд 3с1, к 902</p>
+    </div> 
+    <div class="copyright">
+      <p class="footer__copyright">&copy;WELBEX 2022. Все права защищены.</p>
+      <a class="link" href="#" class="footer__copyright link">Политика конфиденциальности</a>
     </div>
   </footer>
 </body>

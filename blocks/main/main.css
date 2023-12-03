@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 90px 0 69px;
+}
